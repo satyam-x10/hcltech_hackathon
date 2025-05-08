@@ -1,0 +1,333 @@
+{
+  "123": {
+    "name": "Satyam",
+    "id_number": "123",
+    "photo_path": "faces/111.jpg",
+    "photo": "base64_encoded_image_string_for_alice",
+    "dob": "1990-06-15",
+    "balance": 96575.0,
+    "transactions": [
+      {
+        "to": "456",
+        "amount": 50.0,
+        "type": "debit",
+        "timestamp": "2023-10-01T12:00:00Z"
+      },
+      {
+        "to": "456",
+        "amount": 50.0,
+        "type": "debit",
+        "timestamp": "2023-10-01T12:00:00Z"
+      },
+      {
+        "to": "456",
+        "amount": 1.0,
+        "type": "debit",
+        "timestamp": "2023-10-01T12:00:00Z"
+      },
+      {
+        "to": "456",
+        "amount": 3224.0,
+        "type": "debit",
+        "timestamp": "2023-10-01T12:00:00Z"
+      },
+      {
+        "to": "111",
+        "amount": 80000.0,
+        "type": "debit",
+        "timestamp": "2023-10-01T12:00:00Z"
+      },
+      {
+        "to": "123",
+        "amount": 1.0,
+        "type": "debit",
+        "timestamp": "2023-10-01T12:00:00Z"
+      },
+      {
+        "from": "123",
+        "amount": 1.0,
+        "type": "credit",
+        "timestamp": "2023-10-01T12:00:00Z"
+      },
+      {
+        "to": "1999",
+        "amount": 50.0,
+        "type": "debit",
+        "timestamp": "2023-10-01T12:00:00Z"
+      }
+    ],
+    "receipent": [
+      {
+        "name": "John Doe",
+        "account_number": "001234567890",
+        "bank_name": "Bank of America",
+        "ifsc_code": "BOFAUS3N"
+      },
+      {
+        "name": "Jane Smith",
+        "account_number": "009876543210",
+        "bank_name": "Chase Bank",
+        "ifsc_code": "CHASUS33"
+      }
+    ],
+    "gender": "Female",
+    "address": {
+      "street": "123 Main Street",
+      "city": "Mumbai",
+      "state": "MH",
+      "postal_code": "400001",
+      "country": "India"
+    },
+    "contact": {
+      "email": "alice@example.com",
+      "phone": "+91-9876543210"
+    },
+    "biometrics": {
+      "facial_encoding": "base64_facial_vector",
+      "voiceprint": "base64_voice_vector",
+      "fingerprint": "base64_fingerprint_data"
+    },
+    "account_info": {
+      "account_number": "001234567890",
+      "type": "Savings",
+      "balance": 125000.5,
+      "currency": "INR",
+      "status": "Active"
+    },
+    "loan_info": {
+      "has_loan": "true",
+      "loan_type": "Home Loan",
+      "loan_amount": 2500000,
+      "outstanding_balance": 1350000,
+      "interest_rate": 7.2,
+      "emi_due_date": "2025-05-10"
+    },
+    "investment_profile": {
+      "risk_tolerance": "Moderate",
+      "portfolio": [
+        {
+          "type": "Mutual Fund",
+          "name": "ABC Growth Fund",
+          "amount": 50000
+        },
+        {
+          "type": "Fixed Deposit",
+          "amount": 100000
+        }
+      ]
+    },
+    "kyc_status": "Verified",
+    "aml_flags": [],
+    "last_login": "2025-04-23T15:42:00+05:30",
+    "preferred_language": "en",
+    "access_channels": [
+      "web",
+      "mobile",
+      "kiosk"
+    ],
+    "session_flags": {
+      "is_authenticated": "true",
+      "authenticated_with": "facial_recognition"
+    },
+    "audit_log": [
+      {
+        "timestamp": "2025-04-22T14:12:33+05:30",
+        "action": "balance_inquiry",
+        "channel": "mobile"
+      },
+      {
+        "timestamp": "2025-04-21T10:40:00+05:30",
+        "action": "loan_query",
+        "channel": "web"
+      }
+    ]
+  },
+  "456": {
+    "name": "Satyam",
+    "id_number": "456",
+    "photo": "base64_encoded_image_string_for_alice",
+    "dob": "1990-06-15",
+    "balance": 3425.0,
+    "transactions": [
+      {
+        "from": "123",
+        "amount": 50.0,
+        "type": "credit",
+        "timestamp": "2023-10-01T12:00:00Z"
+      },
+      {
+        "from": "123",
+        "amount": 50.0,
+        "type": "credit",
+        "timestamp": "2023-10-01T12:00:00Z"
+      },
+      {
+        "from": "123",
+        "amount": 1.0,
+        "type": "credit",
+        "timestamp": "2023-10-01T12:00:00Z"
+      },
+      {
+        "from": "123",
+        "amount": 3224.0,
+        "type": "credit",
+        "timestamp": "2023-10-01T12:00:00Z"
+      }
+    ],
+    "receipent": [
+      {
+        "name": "John Doe",
+        "account_number": "001234567890",
+        "bank_name": "Bank of America",
+        "ifsc_code": "BOFAUS3N"
+      },
+      {
+        "name": "Jane Smith",
+        "account_number": "009876543210",
+        "bank_name": "Chase Bank",
+        "ifsc_code": "CHASUS33"
+      }
+    ],
+    "gender": "Female",
+    "address": {
+      "street": "123 Main Street",
+      "city": "Mumbai",
+      "state": "MH",
+      "postal_code": "400001",
+      "country": "India"
+    },
+    "contact": {
+      "email": "alice@example.com",
+      "phone": "+91-9876543210"
+    },
+    "biometrics": {
+      "facial_encoding": "base64_facial_vector",
+      "voiceprint": "base64_voice_vector",
+      "fingerprint": "base64_fingerprint_data"
+    },
+    "account_info": {
+      "account_number": "001234567890",
+      "type": "Savings",
+      "balance": 125000.5,
+      "currency": "INR",
+      "status": "Active"
+    },
+    "loan_info": {
+      "has_loan": "true",
+      "loan_type": "Home Loan",
+      "loan_amount": 2500000,
+      "outstanding_balance": 1350000,
+      "interest_rate": 7.2,
+      "emi_due_date": "2025-05-10"
+    },
+    "investment_profile": {
+      "risk_tolerance": "Moderate",
+      "portfolio": [
+        {
+          "type": "Mutual Fund",
+          "name": "ABC Growth Fund",
+          "amount": 50000
+        },
+        {
+          "type": "Fixed Deposit",
+          "amount": 100000
+        }
+      ]
+    },
+    "kyc_status": "Verified",
+    "aml_flags": [],
+    "last_login": "2025-04-23T15:42:00+05:30",
+    "preferred_language": "en",
+    "access_channels": [
+      "web",
+      "mobile",
+      "kiosk"
+    ],
+    "session_flags": {
+      "is_authenticated": "true",
+      "authenticated_with": "facial_recognition"
+    },
+    "audit_log": [
+      {
+        "timestamp": "2025-04-22T14:12:33+05:30",
+        "action": "balance_inquiry",
+        "channel": "mobile"
+      },
+      {
+        "timestamp": "2025-04-21T10:40:00+05:30",
+        "action": "loan_query",
+        "channel": "web"
+      }
+    ]
+  },
+  "3333": {
+    "name": "3333",
+    "id_number": "3333",
+    "photo_path": "faces/3333.jpg",
+    "balance": 0,
+    "transactions": [],
+    "risk_profile": "moderate"
+  },
+  "111": {
+    "name": "111",
+    "id_number": "111",
+    "photo_path": "faces/111.jpg",
+    "balance": 80000.0,
+    "transactions": [
+      {
+        "from": "123",
+        "amount": 80000.0,
+        "type": "credit",
+        "timestamp": "2023-10-01T12:00:00Z"
+      }
+    ],
+    "risk_profile": "moderate"
+  },
+  "121": {
+    "name": "121",
+    "id_number": "121",
+    "photo_path": "faces/121.jpg",
+    "balance": 0,
+    "transactions": [],
+    "risk_profile": "moderate"
+  },
+  "167": {
+    "name": "167",
+    "id_number": "167",
+    "photo_path": "faces/167.jpg",
+    "balance": 0,
+    "transactions": [],
+    "risk_profile": "moderate"
+  },
+  "198": {
+    "name": "198",
+    "id_number": "198",
+    "photo_path": "faces/198.jpg",
+    "balance": 0,
+    "transactions": [],
+    "risk_profile": "moderate"
+  },
+  "1999": {
+    "name": "1999",
+    "id_number": "1999",
+    "photo_path": "faces/1999.jpg",
+    "balance": 50.0,
+    "transactions": [
+      {
+        "from": "123",
+        "amount": 50.0,
+        "type": "credit",
+        "timestamp": "2023-10-01T12:00:00Z"
+      }
+    ],
+    "risk_profile": "moderate"
+  },
+  "555": {
+    "name": "555",
+    "id_number": "555",
+    "photo_path": "faces/555.jpg",
+    "balance": 0,
+    "transactions": [],
+    "risk_profile": "moderate"
+  }
+}
