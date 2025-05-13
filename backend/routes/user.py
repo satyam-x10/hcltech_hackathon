@@ -109,7 +109,7 @@ def photo_login(req: PhotoLoginRequest):
 
     similarity = compare_faces_ssim(uploaded_img, stored_img)
 
-    if similarity > 0.1:
+    if similarity > 0.75:
         return {
             "success": True,
             "message": f"Welcome back, {user['name']}!",
